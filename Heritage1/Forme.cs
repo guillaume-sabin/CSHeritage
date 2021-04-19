@@ -4,8 +4,8 @@ namespace Heritage1
 {
     public abstract class Forme
     {
-        public virtual double Air { get; }
-        public virtual double Perimetre { get; }
+        public abstract double Air { get; }
+        public abstract double Perimetre { get; }
 
         public override string ToString()
         {
